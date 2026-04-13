@@ -10,8 +10,8 @@
 Al ser una implementación nativa en Python, solo necesitas clonar el repositorio y asegurarte de estar en la carpeta raíz:
 
 ```bash
-git clone https://github.com/TU_USUARIO/TU_REPO.git
-cd TU_REPO
+git clone https://github.com/JuanLozanoGit/ASD_RECURSIVO_JUANLOZANO
+cd ASD_RECURSIVO_JUANLOZANO
 ```
 
 ## Guía de Uso Rápido:
