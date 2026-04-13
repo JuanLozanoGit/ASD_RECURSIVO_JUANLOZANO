@@ -40,10 +40,4 @@ cd ASD_RECURSIVO_JUANLOZANO
 * **`gramatica.py`**: Archivo de configuración donde se definen las producciones de los ejercicios 1 y 2 vistos en clase.
 * **`main.py`**: Punto de entrada que orquesta la ejecución y formatea la salida en consola.
 
-## Notas de Implementación:
 
-* **Manejo de Epsilon:** Se utiliza el carácter `ε` (o `e`) para representar la cadena vacía. Los algoritmos filtran este símbolo durante el cálculo de `FOLLOW` según las reglas del curso.
-* **Recursividad Izquierda:** Se incluyó un bloque `try-except` para manejar la **Gramática 1** de las diapositivas, ya que contiene recursividad izquierda directa (`S -> S dos`), lo cual genera un bucle infinito en algoritmos ASD estándar sin previa factorización.
-* **Símbolo de Parada:** El símbolo `$` se añade automáticamente al conjunto `FOLLOW` del símbolo inicial de la gramática.
-
----
