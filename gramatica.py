@@ -1,5 +1,5 @@
 # Definicion de terminales y no terminales para los ejercicios
-# Usamos 'e' o 'epsilon' para la cadena vacia
+# Usamos 'e' o 'epsilon' para la cadena vacia, una definicion aprendida en la clase del miercoles.
 
 EJERCICIO_1 = {
     'S': [['A', 'uno', 'B', 'C'], ['S', 'dos']],
